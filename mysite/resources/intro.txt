@@ -1,0 +1,1 @@
+Hi, I'm Sheng Chen, a PhD student at Oregon State University. My adviser is <a href="http://web.engr.oregonstate.edu/~afern/">Alan Fern</a>. My research interest is mainly in the area of computer vision and machine learning. Contact me at chenshen [AT] eecs [DOT] oregonstate [DOT] edu

@@ -1,0 +1,4 @@
+Multi-Object Tracking via Constrained Sequential Labeling; Sheng Chen, Alan Fern, Sinisa Todorovic; CVPR 2014 (oral); cvpr14_tracking.pdf
+Play Type Recognition in Real-World Football Video; Sheng Chen, Zhongyuan Feng, Qingkai Lu, Behrooz Mahasseni, Trevor Fiez, Alan Fern, Sinisa Todorovic; WACV 2014; wacv14.pdf
+Detecting the Moment of Snap in Real-World Football Video; Behrooz Mahasseni, Sheng Chen, Alan Fern, and Sinisa Todorovic; IAAI 2013; iaai13.pdf
+Visual tracking via weakly supervised learning from multiple imperfect oracles; Bineng Zhong, Hongxun Yao, Sheng Chen, Rongrong Ji, Xiaotong Yuan, Shaohui Liu, Wen Gao; CVPR 2010; cvpr10_tracking.pdf

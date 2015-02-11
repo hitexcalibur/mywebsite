@@ -1,0 +1,37 @@
+{% extends "blog.html" %}
+
+{% block content %}
+
+    {% autoescape off%}
+    {{intro}}
+    {% endautoescape %}
+    
+    <hr>
+    <h2>Education</h2>
+    {% for education in educationList %}
+        <li>{{ education.time }} &nbsp &nbsp {{ education.pos }} &nbsp &nbsp {{ education.dept }} &nbsp &nbsp {{ education.org }}</li>
+    {% empty %}
+
+    {% endfor %}
+    <hr>
+        
+    <h2>Publications</h2>
+    {% for paper in paperList %}
+        <p><b>{{ paper.title }}</b> <a href="{{ paper.url }}">[pdf]</a> </p>
+        <p> &nbsp {{ paper.author }} </p>
+        <p> &nbsp {{paper.conf}} </p>
+    {% empty %}
+    {% endfor %}
+    <hr>
+    
+    <h2>Professional Services</h2>
+    <blockquote>
+        <h3>External Reviewer<h3>
+        {% for service in serviceList %}
+            <p><font size="3">{{ service }}</font></p>
+        {% empty %}
+        {% endfor %}
+    </blockquote>
+
+
+{% endblock %}
